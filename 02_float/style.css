@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.float{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}

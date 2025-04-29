@@ -1,0 +1,53 @@
+h1{
+    font-size: 2rem;
+    color: green;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration:underline;
+    letter-spacing: 1rem;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+h1{
+    background-color: aqua;
+    padding: 1rem;
+    margin: 1rem;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 2px blue;
+    box-shadow: 2px 2px 12px black;
+    border: 10px double hotpink;
+    outline: 2px solid black;
+    outline-offset: -20px;
+}
+
+.container_link{
+    display: flex;
+    flex-direction: column;
+}
+
+a:visited{
+    background-color: green;
+}
+a:hover{
+    background-color: brown;
+}
+a:active{
+    background-color: red;
+}
+
+ul{
+    list-style-type: none;
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: url("./images/checkmark.png");
+}
+
+/* ::marker{
+    color: red;
+  font-family: fantasy;
+  font-size: 1em;
+  content: "only $5 >>  ";
+} */
