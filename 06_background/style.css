@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+/* use different variation of all */
+    background-image: url("./img/bubbles.png");
+    background-color: aqua;
+    background-repeat: repeat-y; 
+    background-position: right;
+    background-size: 140px;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+}
+/* go for all background value options here */
+.container{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-evenly;
+    background-image: url("./img/map-2176x1451.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    border-bottom: 4px  solid white;
+}
+
+
+figure{
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px double black;
+}
+
+img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
