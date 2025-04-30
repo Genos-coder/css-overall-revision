@@ -49,3 +49,12 @@ img{
     height: 100%;
     width: 100%;
 }
+
+
+h2{
+    font-size: 20rem;
+    text-align: center;
+    background-image:url("./img/pat2.png") ;
+    background-clip: text;
+    color: transparent;
+}
